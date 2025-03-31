@@ -22,8 +22,8 @@ function App() {
     {nr}*2={nr*2} <br />
     {nr}*3={nr*3} <br />
     {nr}*4={nr*4} <br />
-    {nr}*=5{nr*5} <br />
-    {nr}*=6{nr*6} <br />
+    {nr}*5={nr*5} <br />
+    {nr}*6={nr*6} <br />
     {nr}*7={nr*7} <br />
     {nr}*8={nr*8} <br />
     {nr}*9={nr*9} <br />
