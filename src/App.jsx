@@ -1,26 +1,42 @@
 
 import './App.css'
-let a,b;
-let 
-w1=a*b
-w2=a*b
-w3=a*b
-w4=a*b
-w5=a*b
-w6=a*b
-w7=a*b
-w8=a*b
-w9=a*b
-w10=a*b;
-
+let nr;
+let x;
+let y;
+nr = 3
+;console.log(nr);
 function App() {
   
   
   
   return (
-    <>
-     hello, World
-     <p>hej</p>
+  <>
+   <div class="tablica1"> <div class="tablica2">
+   <h1> Komputer ma numer - {nr} </h1>
+   </div>
+   </div><br/><br/>
+   <div class="text">
+   </div>
+    <br/><br/>
+    <div class="tablica3">{nr}*1={nr*1} <br />
+    {nr}*2={nr*2} <br />
+    {nr}*3={nr*3} <br />
+    {nr}*4={nr*4} <br />
+    {nr}*=5{nr*5} <br />
+    {nr}*=6{nr*6} <br />
+    {nr}*7={nr*7} <br />
+    {nr}*8={nr*8} <br />
+    {nr}*9={nr*9} <br />
+    {nr}*10={nr*10} <br />
+    </div>
+<div class="xy">
+<p>{nr}x<sup>3</sup>+1-{nr}y=  {nr*x*x*x+1-nr*y} </p>
+<p>2x+3{nr}-4y<sup>2</sup>=  {2*x+3*nr-4*y*y} </p>
+<p>3y<sup>2</sup>-{nr}x<sup>2</sup>y-7y=  {3*y*y-nr*x*x*y-7*y} </p>
+<p>2xy+{nr}xy= {2*x*y+nr*x*y}  </p>
+<p>3x<sup>2</sup>+{nr}y+2= {3*x*x+nr*y+2}  </p>
+</div>
+    
     </>
   )
 }
