@@ -11,7 +11,7 @@ function App() {
   
   return (
   <>
-   <div class="tablica1"> <div class="tablica">
+   <div class="tablica1"> <div>
    <h1> Komputer ma numer - {nr} </h1>
    </div>
    </div><br/><br/>
@@ -26,7 +26,8 @@ function App() {
     {nr}*8={nr*8} <br />
     {nr}*9={nr*9} <br />
     {nr}*10={nr*10} <br />
-    </div>
+    </div><br/><br/>
+
 <div class="tablica3">
 <p>{nr}x<sup>3</sup>+1-{nr}y=  {nr*x*x*x+1-nr*y} </p>
 <p>2x+3{nr}-4y<sup>2</sup>=  {2*x+3*nr-4*y*y} </p>
