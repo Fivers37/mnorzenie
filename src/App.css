@@ -9,7 +9,7 @@ border-radius: 10 px;
 text-align: center;
 background-size: cover;
 margin: 0 auto;
-width: 200px;
+width: 400px;
 height: 100px;
 box-shadow: blue;
 }
@@ -19,8 +19,8 @@ box-shadow: blue;
     text-align: center;
     background-size: cover;
     margin: 0 auto;
-    width: 200px;
-    height: 600px;
+    width: 300px;
+    height: 300px;
     box-shadow: blue;
 }
     .tablica3{
@@ -29,7 +29,7 @@ box-shadow: blue;
         text-align: center;
         background-size: cover;
         margin: 0 auto;
-        width: 200px;
-        height: 600px;
+        width: 300px;
+        height: 300px;
         box-shadow: blue
     }
