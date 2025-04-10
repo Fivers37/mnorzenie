@@ -35,7 +35,24 @@ function App() {
 <p>2xy+{nr}xy= {2*x*y+nr*x*y}  </p>
 <p>3x<sup>2</sup>+{nr}y+2= {3*x*x+nr*y+2}  </p>
 </div>
-    
+  
+  <>
+   <div>
+   <p>
+   {Array.map((liczba) => {
+
+   return (
+<div>
+{liczba} * {num} = {num * liczba}
+</div>
+  );
+})}
+   
+   
+   </p>
+    </div> 
+    </>
+
     </>
   )
 }
