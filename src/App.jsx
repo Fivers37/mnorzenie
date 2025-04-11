@@ -1,9 +1,10 @@
 
 import './App.css'
-let nr;
-let x;
-let y;
-nr = 3
+
+let x=2,y=3,nr=13;
+
+
+
 ;console.log(nr);
 function App() {
   
@@ -11,7 +12,9 @@ function App() {
   
   return (
   <>
+   
    <div class="tablica1"> <div>
+    <div class="ramka"><p>Iryna</p></div>
    <h1> Komputer ma numer - {nr} </h1>
    </div>
    </div><br/><br/>
@@ -36,22 +39,9 @@ function App() {
 <p>3x<sup>2</sup>+{nr}y+2= {3*x*x+nr*y+2}  </p>
 </div>
   
-  <>
-   <div>
-   <p>
-   {Array.map((liczba) => {
-
-   return (
-<div>
-{liczba} * {num} = {num * liczba}
-</div>
-  );
-})}
+ 
    
-   
-   </p>
-    </div> 
-    </>
+  
 
     </>
   )

@@ -3,6 +3,8 @@ background-image: url(https://img.freepik.com/premium-wektory/technologia-polacz
 background-size: cover;
 }
 
+
+
 .tablica1{
 border: 5px solid blueviolet;
 border-radius: 20 px;
@@ -13,9 +15,19 @@ width: 400px;
 height: 100px;
 box-shadow: blue;
 font-size:  24;
+}
+.ramka{
+    border: 3px solid yellowgreen;
+   border-radius: 5px;
+    width: 100px;
+   height: 40px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrK7LEeZVKw4H6RvmCP_bNkYs2DFUEhWMInw&s);
+   background-size: cover;
+ margin: auto;
 
 
 }
+
 .tablica2{
     border: 5px solid blueviolet;
     border-radius: 10 px;
